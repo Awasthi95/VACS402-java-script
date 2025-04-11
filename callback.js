@@ -24,6 +24,9 @@ function third(){
 setTimeout(second,1000);
 third();
 */
-first(){
-}
+first();
+setTimeout(()=>{
+    console.log("print second");
+},2000);
+third()
 

@@ -20,7 +20,10 @@ function third(){
     console.log("print third");
 
 }
-first();
+/*first();
 setTimeout(second,1000);
 third();
+*/
+first(){
+}
 

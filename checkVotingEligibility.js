@@ -14,12 +14,17 @@ let arr=[
     {
         name:"shrivastava",
         age:22
+    },
+    {
+        name:"yashu chamar nickname chore chamara ke ",
+        age: 17
+
     }
 ]
 for (let i = 0; i < arr.length; i++) {
     if (arr[i].age >= 18) {
         console.log(`${arr[i].name} is eligible to vote.`);
     } else {
-        console.log(`${arr[i].name} is not eligible to vote.`);
+        console.log(`${arr[i].name} is not eligible to vote, because he is chore chamara ke always saying JAI BHEEM likha rahe gaddi pe.`);
     }
 }
